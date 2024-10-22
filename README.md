@@ -17,6 +17,6 @@
 
 ## Clothes
 
-### MSD
+### 1/4 Scale
 1. [Strawberry Cowichan](clothes_msd/Strawberry%20Cowichan.md)
 2. [Poinsettia Pullover](clothes_msd/Poinsettia%20Pullover.md)
