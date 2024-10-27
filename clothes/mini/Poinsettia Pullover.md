@@ -1,4 +1,4 @@
-![](../imgs/poinsettia1.jpg)
+![](../../imgs/poinsettia1.jpg)
 
 ※ 해당 이미지는 메리노앙고라10이 아닌 바늘이야기의 어텀앙고라로 우선 작업해 둔 스와치입니다. 이미지 교체 예정이니 무늬만 참조해 주세요.
 
@@ -12,7 +12,7 @@
 
 # 기본 패턴
 
-![](../imgs/poinsettia.jpg)
+![](../../imgs/poinsettia.jpg)
 
 1반복무늬 = 47코 16단
 

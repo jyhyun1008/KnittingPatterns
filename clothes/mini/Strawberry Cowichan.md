@@ -1,4 +1,4 @@
-![](../imgs/strawberry1.png)
+![](../../imgs/strawberry1.png)
 
 > 스트로베리 코위찬
 
