@@ -6,17 +6,21 @@
 
 # 원작 정보
 
-* **바늘**: 3mm 대바늘
-* **실**: Bouclelaine Mérinos Angora10 피망컬러
+* **바늘**: 3mm, 2.5mm 대바늘
+* **실**: Bouclelaine Mérinos Angora10 피망컬러 
 * **게이지**: (측정 필요)
 
 # 기본 패턴
+## 뒷판
 
-![](../../imgs/poinsettia.jpg)
+![](../../imgs/poinsettia2.jpg)
+
+## 앞판
+
+![](../../imgs/poinsettia3.jpg)
 
 1반복무늬 = 47코 16단
 
-* 그림에서는 43코이지만 앞뒤로 멍석무늬 2코씩을 더해 **47코**로 작업합니다.
 * 동그란 무늬는 바늘비우기가 아니라 5코 팝콘뜨기입니다.
 
 # 소매
