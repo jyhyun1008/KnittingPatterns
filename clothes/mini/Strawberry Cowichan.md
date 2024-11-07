@@ -11,3 +11,9 @@
 * **게이지**: (측정 필요)
 
 # 패턴
+
+![](../../imgs/strawberry2.png)
+
+![](../../imgs/strawberry3.png)
+
+![](../../imgs/strawberry4.png)
