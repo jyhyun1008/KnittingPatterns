@@ -12,8 +12,11 @@
 
 # 패턴
 
+## 뒷판
 ![](../../imgs/strawberry2.png)
 
+## 앞판
 ![](../../imgs/strawberry3.png)
 
+## 소매
 ![](../../imgs/strawberry4.png)
