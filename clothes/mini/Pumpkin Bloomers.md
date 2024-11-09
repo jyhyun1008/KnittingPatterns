@@ -25,7 +25,7 @@ for (0, 1cm) {
 inherit(r)
 (k7, m1rp, p1, m1rp)*5 k7 ml (k7, m1rp, p1, m1rp)*5 k7
 
-for (0, 6cm) {
+for (0, 1cm) {
 	inherit(r)
 }
 
