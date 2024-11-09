@@ -10,7 +10,65 @@
 * **실**: 다이소 가벼운 데님 느낌 (데님 버전) / Biches et Bûches Le Petit Lambswool(일반 버전)
 * **게이지**: (측정 필요)
 
-# 만드는 방법 (단순 설명 주의)
+# 만드는 방법
+
+```
+co 84
+set 42 ml 42
+work round
+
+for (0, 1cm) {
+	k(r)
+}
+
+(k7, m1rp)*5 k7 ml (k7, m1rp)*5 k7
+inherit(r)
+(k7, m1rp, p1, m1rp)*5 k7 ml (k7, m1rp, p1, m1rp)*5 k7
+
+for (0, 6cm) {
+	inherit(r)
+}
+
+(k7 p1 p2tog)*5 k7 ml (k7 p1 p2tog)*5 k7
+(k7 p2tog)*5 k7 ml (k7 p2tog)*5 k7
+k7 (k2tog k6)*5 ml k7 (k2tog k6)*5
+
+rest(ml)
+co backwardLoop 4
+
+function LEGRIBBING() {
+    k21
+    set 23 ml 23 //46
+
+    (k1 p1)*5 k2tog p1 (k1 p1)*4 k2tog p1 (k1 p1)*4 k2tog p1 (k1 p1)*4 k2tog p1 //42
+
+    for (l, 6cm) {
+        inherit(r)
+    }
+
+    bo
+}
+
+LEGRIBBING()
+
+pickup rest 1 / 1
+pickup backwardLoop 4
+
+LEGRIBBING()
+
+pickup co 84
+set 42 ml 42 //84
+
+(k1 p1)*3 (k2tog p1 (k1 p1)*2)*5 ml (k1 p1)*3 (k2tog p1 (k1 p1)*2)*5 //74
+
+for (0, 4cm) {
+	inherit(r)
+}
+
+bo foldedNeckBand
+```
+
+# 위의 만드는 방법 해설
 
 - **1**: 한쪽 바늘에 42코를 잡은 뒤, 매직루프로 바늘을 넘긴 뒤 다른 바늘에 42코를 잡습니다. 이상 84코로 매직 루프
 - **2**: 편물이 1센티미터 길이가 될 때까지 겉뜨기

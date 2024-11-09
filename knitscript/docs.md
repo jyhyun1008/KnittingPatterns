@@ -10,8 +10,8 @@ set 3 ml 3
 work round
 
 for (3 ml 3, 27 ml 27) {
-  k(r)
-  k1 m1l k(ml-1) m1r k1 ml k1 m1l k(r-1) m1r k1
+	k(r)
+	k1 m1l k(ml-1) m1r k1 ml k1 m1l k(r-1) m1r k1
 }
 
 k13
@@ -19,7 +19,7 @@ set 27 ml 27
 
 function STCK(LENGTH) {
 	for (l, LENGTH) {
-	  k(r)
+		k(r)
 	} 
 	k1 skpo k(ml-3) k2tog k1 ml k1 skpo k(r-3) k2tog k1
 }
@@ -40,8 +40,8 @@ k13 ml k7
 set 13 ml 13
 
 for (13 ml 13, 3 ml 3) {
-  k(r)
-  k1 skpo k(ml-3) k2tog k1 ml k1 skpo k(r-3) k2tog k1
+	k(r)
+	k1 skpo k(ml-3) k2tog k1 ml k1 skpo k(r-3) k2tog k1
 }
 
 bo
@@ -165,6 +165,18 @@ k(m-1)
 > 마커 1코 전까지 겉뜨기합니다.
 
 안뜨기의 경우는 위 예시 `k` 자리를 `p`로 대체합니다.
+아래 모양대로 뜨기의 경우는 위 예시 `k` 자리를 `inherit` 로 대체하며, 상속받았다는 의미입니다.
+
+별실이나 스티치 마커 에 옮기는 경우에 위 예시 `k` 자리를 `rest` 로 대체하며, 코를 쉬게 하라는 의미입니다.
+```
+rest10
+```
+```
+rest(r)
+```
+```
+rest(m)
+```
 
 # 6. marker
 
@@ -190,8 +202,8 @@ marker BAR
 
 ```
 for (3 ml 3, 27 ml 27) {
-  k(r)
-  k1 m1l k(ml-1) m1r k1 ml k1 m1l k(r-1) m1r k1
+	k(r)
+ 	k1 m1l k(ml-1) m1r k1 ml k1 m1l k(r-1) m1r k1
 }
 ```
 
@@ -201,8 +213,8 @@ for (3 ml 3, 27 ml 27) {
 
 ```
 for (l, 27 ml 27) {
-  k(r)
-  k1 m1l k(ml-1) m1r k1 ml k1 m1l k(r-1) m1r k1
+	k(r)
+	k1 m1l k(ml-1) m1r k1 ml k1 m1l k(r-1) m1r k1
 }
 ```
 > 마지막 단으로부터 그 단이 27코/27코가 될 때까지 아래의 작업을 반복합니다. 한 줄이 한 단입니다.
@@ -250,7 +262,7 @@ while이 참인 조건문 내에서 반복한다면, until은 **거짓인 조건
 ```
 function STCK(LENGTH) {
 	for (l, LENGTH) {
-	  k(r)
+	 	k(r)
 	} 
 	k1 skpo k(ml-3) k2tog k1 ml k1 skpo k(r-3) k2tog k1
 }
@@ -283,6 +295,12 @@ pickup 0 27
 ```
 
 코 잡은 단에서 27코 줍습니다.
+
+```
+pickup rest 1 / 1
+```
+
+코를 쉬게 한 곳에서 모든 코를 줍습니다.
 
 ```
 pickup [FOO, BAR] 30
