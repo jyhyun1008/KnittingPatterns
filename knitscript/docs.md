@@ -271,3 +271,27 @@ ref url('https://youtu.be/nnnnnnnnn')
 ```
 
 참고 이미지나 동영상을 첨부할 경우에 삽입할 수 있습니다.
+
+# 12. pickup
+
+```
+pickup co 27
+```
+
+```
+pickup 0 27
+```
+
+코 잡은 단에서 27코 줍습니다.
+
+```
+pickup [FOO, BAR] 30
+```
+
+`[FOO, BAR]` 마커를 따라서 30코 줍습니다.
+
+```
+pickup ref url('https://~~~.jpeg') 10
+```
+
+참조 이미지를 보면서 10코 줍습니다.
