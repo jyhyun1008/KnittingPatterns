@@ -30,7 +30,9 @@ for (0, 6cm) {
 }
 
 (k7 p1 p2tog)*5 k7 ml (k7 p1 p2tog)*5 k7
+inherit(r)
 (k7 p2tog)*5 k7 ml (k7 p2tog)*5 k7
+inherit(r)
 k7 (k2tog k6)*5 ml k7 (k2tog k6)*5
 
 rest(ml)
